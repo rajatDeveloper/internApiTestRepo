@@ -111,7 +111,7 @@ class _MyPhoneState extends State<MyPhone> {
                         body: data,
                       );
                       Utils.snackBar(response.body, context);
-                      // Navigator.pushNamed(context, RoutesName.otpRoute);
+                      Navigator.pushNamed(context, RoutesName.otpRoute);
                     },
                     child: Text("Send the code")),
               )

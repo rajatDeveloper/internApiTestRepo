@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 import 'package:pinput/pinput.dart';
 import 'package:testing_app/Routes/routes_name.dart';
@@ -63,14 +62,14 @@ class _MyVerifyState extends State<MyVerify> {
                 height: 25,
               ),
               Text(
-                "Phone Verification",
+                "Abha Number Verification",
                 style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
               ),
               SizedBox(
                 height: 10,
               ),
               Text(
-                "We need to register your phone without getting started!",
+                "Otp Verfication !",
                 style: TextStyle(
                   fontSize: 16,
                 ),
@@ -100,7 +99,7 @@ class _MyVerifyState extends State<MyVerify> {
                         shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(10))),
                     onPressed: () {},
-                    child: Text("Verify Abha Number")),
+                    child: Text("Verify OTP")),
               ),
               Row(
                 children: [
